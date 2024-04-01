@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spongebobcase"
+version = "0.0.1"
+dependencies = []
+
+[tool.setuptools]
+packages = ["spongebobcase"]
+
+[project.scripts]
+spongebobcase = "spongebobcase.cmd:main"
