@@ -4,7 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "spongebobcase"
-version = "0.0.1"
+version = "1.0.0"
+description = "A tool for converting text into SpongeBob case"
+author = "Matt Plank"
 dependencies = []
 
 [tool.setuptools]
